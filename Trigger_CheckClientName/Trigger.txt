@@ -1,0 +1,4 @@
+    workspace-check-engine change-submit //JZ_World/Engine/... "metaspace/p4/script/check_workspace_name.sh %client%"
+    workspace-check-jzsource change-submit //JZ_World/JZ_Project/Source/... "metaspace/p4/script/check_workspace_name.sh %client%"
+    workspace-check-jzconfig change-submit //JZ_World/JZ_Project/Config/... "metaspace/p4/script/check_workspace_name.sh %client%"
+    workspace-check-jzplugin change-submit //JZ_World/JZ_Project/Plugins/... "metaspace/p4/script/check_workspace_name.sh %client%"
